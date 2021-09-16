@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    background-color: rgb(0, 9, 29);
+    padding: 30px;
+    color: white;
+    font-size: 2vw;
+}
+
+hr{
+    border: 3px solid rgb(81, 136, 255);
+    border-radius: 10px;
+  }
+
+li{
+    text-align: justify;
+}
+table{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+#topmenu{
+    display: flex;
+    background-color: rgb(0, 15, 48);
+    margin: 0;
+    font-size: 1.8vw;
+}
+
+#topmenu li{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-left: 1vw;
+    padding:10px;
+}
+
+#topmenu li:first-child {
+    margin-right:auto;
+}
+
+#meunome{
+    color: white;
+    padding: 10px;
+    font-size: 2.7vw;
+}
+
+.section1{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    background-image: url("background7.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.section2{
+    display: flex;
+    height: 33%;
+    background-image: url("background3.jpg");
+    background-size: cover;
+    font-size: 1.7vw;
+    color: rgb(3, 3, 41);
+    
+}
+
+.section3{
+    display: flex;
+    height: 33%;
+    background-image: url("background5.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 1.7vw;
+}
+
+.section3 hr{
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.centralize{
+    margin: auto;
+    text-align: center;
+}
+
+.imagemprojeto{
+    width: 30vw;
+    height: 25vw;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.imagemperfil{
+    width: 45%;
+    height: 45%;
+    padding: 10%;
+    border-radius: 50%;
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+.opt{
+    background-color: rgb(48, 70, 197);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 1vw;
+}
